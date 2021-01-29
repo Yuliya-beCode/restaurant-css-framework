@@ -19,20 +19,21 @@ Bootstrap is the most popular CSS Framework for developing responsive and mobile
 
 
     The website consists of five accessible pages: welcome, menu, pictures, restaurants and contact.
-    Welcome
+    
+Welcome
 
-1. A page with one Jumbotron and two panels to show news (promo, events, etc…​).
+- A page with one Jumbotron and two panels to show news (promo, events, etc…​).
 Menu
 
-2. A page with the restaurant menu in the form of a grouped list with badges.
+- A page with the restaurant menu in the form of a grouped list with badges.
 Pictures
 
-3. A page with a gallery of minimum 10 pictures and a pagination (3 photos per page).
+- A page with a gallery of minimum 10 pictures and a pagination (3 photos per page).
 Restaurant
 
-4. A page about the restaurants (it’s a franchise) with its addresses, a map, and different schedules.
+- A page about the restaurants (it’s a franchise) with its addresses, a map, and different schedules.
 
-5. Contact
+- Contact
 
     A page with a contact form containing the firstname, lastname, email, subject of the message (a drop-down list with multiple options), an area for the message itself and a send button with an icon. Each entry as a title in a semantically correct tag.
 
