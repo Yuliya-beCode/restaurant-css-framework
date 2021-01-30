@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+}
+
+
 .jumbotron {
     background-color: rgba(239, 242, 63, 1);
     font-family: Roboto Mono;
@@ -7,14 +12,8 @@
     line-height: 10px;
     color: #000000;
     
-    
 }
 
-.row {
-    padding-top: 10px;
-    margin-bottom: 0px;
-    
-}
 
 
 i {
@@ -23,38 +22,41 @@ i {
 
 #logo {
    border-radius: 100px;
+   padding-top: 10px;
    padding-bottom: 20px;
-   width: 180px;
+   width: 100px;
 
 }
 
 
-.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
-    background-color: rgba(165, 168, 20, 1) !important;
+.menu a {
+    color: rgba(165, 168, 20, 1) !important;
     margin-bottom: 20px;
-    width: 90px;
+    width: 80px;
     margin-top: 0px;
+    margin-right: 10px;
 }
 
 /*main*/
 
 main {
-    margin-top: 350px;
-    background-color: white !important;
-}
+    margin-top: 240px;
+    flex-grow: 1;
 
+}
 
 /*footer*/
 
 
 
-.container-fluid {
+header, footer{
   background-color: rgba(239, 242, 63, 1);
-  height: 120px;
+  
 
 }
 
 #card {
     height: 120px;
 }
+
 

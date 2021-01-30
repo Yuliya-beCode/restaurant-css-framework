@@ -12,35 +12,25 @@
 
     <title>welcome</title>
 </head>
-<body>
+<body class="d-flex flex-column">
 
     <!--header-->
 
      <header class="jumbotron fixed-top">
                 
-            <div class="row">
+            <div class="row mx-1">
                 
-                 <div class="col-2 col-md-2 offset-9">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                    </div>
-                    <div class="col col-md-2 offset-1 d-flex">
-                        <div class="d-flex flex-column">
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-whatsapp-square"></i>
-                        <i class="fab fa-instagram-square"></i>
-                    </div>
-                     <img id="logo" src="pictures/logo.png" alt="">
+                 <div class="d-flex justify-content-around align-items-center">
+                   
+                     <img id="logo" src="pictures/logo.png" alt="" width="100px">
+                     <h4> <b>Only Kids</b> <br> <br> Restaurant </h4>
+
                      </div>
-                    <h1 class="col-6 col-md-6 offset-2"> <b>Only Kids</b> <br> <br> Restaurant </h1>
-                        <div class="col-6 col-md-6 offset-5">
-                        <a class="btn btn-warning btn-sm" href="menu.html" role="button">Menu</a>
-                        <a class="btn btn-warning btn-sm" href="pictures.html" role="button">Gallery</a>
-                        <a class="btn btn-warning btn-sm" href="restaurants.html" role="button">Restos</a>
-                        <a class="btn btn-warning btn-sm" href="contact.html" role="button">Contact</a>
+                        <div class="col-12 d-flex justify-content-center menu">
+                        <a class="btn btn-sm" href="menu.html" role="button">Menu</a>
+                        <a class="btn btn-sm" href="pictures.html" role="button">Gallery</a>
+                        <a class="btn btn-sm" href="restaurants.html" role="button">Restos</a>
+                        <a class="btn btn-sm" href="contact.html" role="button">Contact</a>
                         </div>   
                      </div>
             
@@ -53,32 +43,31 @@
 
 
     <main class="container-fluid">
-
         
         <div class="row">
-            <div class="col-6 col-md-6">
+            <div class="col-6">
                 <div class = "panel panel-success">
                         <div class = "panel-heading">
                             <h3 class = "panel-title">Our News</h3>
                         </div>
                         
                         <div class = "panel-body">
-                            <img src="pictures/news.png" alt="">
+                            <img src="pictures/news.png" alt="" width="100%">
                         </div>
                 </div>
         
             
             </div>
 
-            <div class="col-6 col-md-6">
+            <div class="col-6">
                 <div class = "panel panel-success">
                         <div class = "panel-heading">
-                            <h3 class = "panel-title">Our News</h3>
+                            <h3 class = "panel-title">Our Events</h3>
                             <p>Our webside has been updated. Please find more functions on it. </p>
                         </div>
                         
                         <div class = "panel-body">
-                            <img src="pictures/page-welcome-.png" alt="">
+                            <img src="pictures/page-welcome-.png" alt="" width="100%">
                         </div>
                 </div>
         
@@ -96,16 +85,14 @@
 
     
     
-    <div role="footer" class="container-fluid fixed-bottom">
+    <footer class="container-fluid">
 
-            <div class="row">
-                     <div class="col-3 col-md-3 offset-5 fixed-bottom">
-                        <img id="card" src="pictures/Only kids.gif" alt="">
+            <div class="d-flex justify-content-center">
+                   <img id="card" src="pictures/Only kids.gif" alt="">
 
-                    </div>
             </div>
         </div>
-    </div>
+    </footer>
 
     <!--/footer-->
 
