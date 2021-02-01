@@ -16,10 +16,6 @@ body {
 
 
 
-i {
-    margin-right: 60px;
-}
-
 #logo {
    border-radius: 100px;
    padding-top: 10px;
@@ -30,18 +26,28 @@ i {
 
 
 .menu a {
-    color: rgba(165, 168, 20, 1) !important;
     margin-bottom: 20px;
     width: 80px;
     margin-top: 0px;
     margin-right: 10px;
+
 }
+
+.btn-primary {
+    color: white;
+} 
 
 /*main*/
 
 main {
     margin-top: 240px;
     flex-grow: 1;
+
+}
+
+.carousel img {
+
+     margin: auto;
 
 }
 

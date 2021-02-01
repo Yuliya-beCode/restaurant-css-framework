@@ -12,6 +12,8 @@
  2. css
  3. bootstrap (the most popular CSS Framework for developing responsive and mobile-first websites)
 
+    For visual effects I have used services such unsplash and canva
+
 
     The website is considered to be responsive, at least for small and medium screens. 
 
@@ -45,6 +47,15 @@ Restaurant
 Please find here below an appropriate maket for my webpage.
 
 ![maket_welcome_page](pictures/page-welcome-.png)
+
+![maket_menu_page](pictures/maket_menu_page.png)
+
+![maket_gallery_page](pictures/maket_gallery_page.png)
+
+![maket_restaurants_page](pictures/maket_restaurants_page.png)
+
+![maket_contact_page](pictures/maket_contact_page.png)
+
 
 
 
