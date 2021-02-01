@@ -1,12 +1,12 @@
 
 # Welcome to the website of the restaurant "Only Kids"
 
-[Link](http://github.com)
+[Link](https://yuliya-becode.github.io/restaurant-css-framework/welcome.html)
 
 
 ![Only Kids logo](pictures/logo.png)
 
- ## By creating the website, the following coding languages have been used
+ By creating the website, the following coding languages have been used
 
  1. html
  2. css
