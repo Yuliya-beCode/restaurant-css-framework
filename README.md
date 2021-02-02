@@ -12,10 +12,10 @@
  2. css
  3. bootstrap (the most popular CSS Framework for developing responsive and mobile-first websites)
 
-    For visual effects I have used services such unsplash and canva
+    For visual effects I used services such as unsplash and canva.
 
 
-    The website is considered to be responsive, at least for small and medium screens. 
+    The website is considered to be responsive, at least for small and medium screens. Only
 
 
     The website consists of five accessible pages: welcome, menu, pictures, restaurants and contact.
