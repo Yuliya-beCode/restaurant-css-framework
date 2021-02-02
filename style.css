@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    font-family: Roboto Mono;
 }
 
 
@@ -11,16 +12,16 @@ body {
     font-size: 40px;
     line-height: 10px;
     color: #000000;
-    
+
 }
 
 
 
 #logo {
-   border-radius: 100px;
-   padding-top: 10px;
-   padding-bottom: 20px;
-   width: 100px;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100px;
 
 }
 
@@ -35,19 +36,21 @@ body {
 
 .btn-primary {
     color: white;
-} 
+}
 
 /*main*/
 
 main {
+    margin-left: 500px;
     margin-top: 240px;
     flex-grow: 1;
 
 }
 
+
 .carousel img {
 
-     margin: auto;
+    margin: auto;
 
 }
 
@@ -55,14 +58,13 @@ main {
 
 
 
-header, footer{
-  background-color: rgba(239, 242, 63, 1);
-  
+header,
+footer {
+    background-color: rgba(239, 242, 63, 1);
+
 
 }
 
 #card {
     height: 120px;
 }
-
-
