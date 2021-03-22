@@ -18,13 +18,6 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-echo $inputFirstName . "</br>";
-echo $inputLastName . "</br>";
-echo $inputEmail . "</br>";
-echo $subject . "</br>";
-echo $message . "</br>";
-
-
 
 if (mb_strlen($inputFirstName) < 2 || mb_strlen($inputFirstName) > 20) {
     echo "Error: please check the leangth of your first name";

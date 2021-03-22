@@ -1,0 +1,12 @@
+
+
+th, td {
+    padding: 10px;
+}
+
+th {
+background-color: aqua;}
+
+td {
+    background-color:blueviolet;
+}
