@@ -1,6 +1,6 @@
 <?php
 
-require_once 'conn.php';
+require_once '../admin/conn.php';
 
 ?>
 
@@ -19,6 +19,7 @@ require_once 'conn.php';
 <body>
     <table>
         <tr>
+            <th>ID</th>
             <th>First name</th>
             <th>Last name</th>
             <th>Email</th>
@@ -27,18 +28,33 @@ require_once 'conn.php';
         </tr>
 
 
-        <tr>
-            <td></td>
-        </tr>
-    </table>
-
-    <pre>
         <?php
         $contacts = mysqli_query($conn, "SELECT * FROM `users`");
         $contacts = mysqli_fetch_all($contacts);
-        print_r($contacts)
+        foreach ($contacts as $contact) {
         ?>
-</pre>
+
+
+            <tr>
+                <td><?= $contact[0] ?></td>
+                <td><?= $contact[1] ?></td>
+                <td><?= $contact[2] ?></td>
+                <td><?= $contact[3] ?></td>
+                <td><?= $contact[4] ?></td>
+                <td><?= $contact[5] ?></td>
+                <td><a style="color: red;" href="delete.php?id=<?=$contact[0] ?>">Delete</a></td>
+
+            </tr>
+
+        <?php
+        }
+
+        ?>
+
+
+    </table>
+
+
 </body>
 
 </html>
