@@ -74,6 +74,7 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO `users` (inputFirstName, inputLastName, inputEmail, subject, message) 
 VALUES('$inputFirstName', '$inputLastName', '$inputEmail', '$subject', '$message')";
 
+
 if ($conn->query($sql)) {
     echo "New record has been created successfully. Thanks a lot for your feedback!";
 } else {
