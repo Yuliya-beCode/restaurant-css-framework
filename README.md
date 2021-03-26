@@ -1,7 +1,7 @@
 
 # Welcome to the website of the restaurant "Only Kids"
 
-[Link](https://yuliya-becode.github.io/restaurant-css-framework/welcome.html)
+[Link](https://yuliya-becode.github.io/restaurant-css-framework/index.html)
 
 
 ![Only Kids logo](pictures/logo.png)
