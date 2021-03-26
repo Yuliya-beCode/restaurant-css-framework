@@ -1,7 +1,6 @@
 
 <?php
 
-
 $user = 'admin';
 $password = '';
 $db = 'register-bd';
